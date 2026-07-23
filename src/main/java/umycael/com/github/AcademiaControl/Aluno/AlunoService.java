@@ -27,7 +27,7 @@ public class AlunoService {
     }
 
     // Listar Aluno por ID
-    public AlunoDTO listarPorAlunoId(Long id) {
+    public AlunoDTO listarAlunoPorId(Long id) {
         Optional<AlunoModel> alunoId = alunoRepository.findById(id);
         return alunoId.map(alunoMapper::map).orElse(null);
     }
