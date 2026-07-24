@@ -65,7 +65,6 @@ public class AlunoService {
             aluno.setTelefone(alunoDTO.getTelefone());
             aluno.setDataNascimento(alunoDTO.getDataNascimento());
             aluno.setSexo(alunoDTO.getSexo());
-            aluno.setAtivo(alunoDTO.isAtivo());
 
             AlunoModel alunoSalvo = alunoRepository.save(aluno);
 

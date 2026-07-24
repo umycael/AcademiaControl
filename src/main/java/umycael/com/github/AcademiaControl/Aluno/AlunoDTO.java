@@ -37,8 +37,4 @@ public class AlunoDTO {
     @NotNull(message = "O sexo é obrigatório.")
     private Sexo sexo;
 
-    private boolean ativo;
-
-    private LocalDate dataCadastro;
-
 }

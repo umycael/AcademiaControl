@@ -16,8 +16,6 @@ public class AlunoMapper {
             alunoModel.setTelefone(alunoDTO.getTelefone());
             alunoModel.setDataNascimento(alunoDTO.getDataNascimento());
             alunoModel.setSexo(alunoDTO.getSexo());
-            alunoModel.setAtivo(alunoDTO.isAtivo());
-            alunoModel.setDataCadastro(alunoDTO.getDataCadastro());
 
             return alunoModel;
         }
@@ -31,8 +29,6 @@ public class AlunoMapper {
             alunoDTO.setTelefone(alunoModel.getTelefone());
             alunoDTO.setDataNascimento(alunoModel.getDataNascimento());
             alunoDTO.setSexo(alunoModel.getSexo());
-            alunoDTO.setAtivo(alunoModel.isAtivo());
-            alunoDTO.setDataCadastro(alunoModel.getDataCadastro());
 
             return alunoDTO;
         }
